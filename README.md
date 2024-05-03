@@ -41,3 +41,7 @@ The gRPC server component hosts the implementation of the gRPC services, exposin
 and processing through the DAO layer. The gRPC client component allows external clients to interact with the server, making query requests and receiving responses asynchronously.
 
 In principle, the project architecture as shown in Fig 2.1, promotes modularity, scalability, and maintainability by adhering to best practices in distributed systems design and leveraging modern technologies such as gRPC and MongoDB. This architecture enables seamless communication and efficient data processing, empowering users to retrieve and analyze education cost statistics with ease.
+
+
+![Architecture Diagram of Project](Architecture Diagram.drawio.png)
+
