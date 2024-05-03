@@ -19,7 +19,7 @@ import com.example.Query.QueryFiveResponse;
 public class MyGrpcClient {
 
     // Define the server address and port
-    private static final String SERVER_ADDRESS = "151.145.35.98";
+    private static final String SERVER_ADDRESS = "Your-server-address-here";
     private static final int SERVER_PORT = 8080;
 
     public static void main(String[] args) {
