@@ -15,7 +15,7 @@ public class EduCostStatQueryFourDAO {
     private final String databaseName = "assignment-2";
     private final String mainCollectionName = "nces-collection";
     private final String queryCollectionName = "EduCostStatQueryFour";
-    private final String mongoURL = "mongodb+srv://ernestinyama-2:2aRBRLPi9AnzLZ8E@assignment-2-practice.jwf37e8.mongodb.net/?retryWrites=true&w=majority&appName=Assignment-2-practice";
+    private final String mongoURL = "your-mongo-db-url";
 
     public List<String> query(int yearsRange, String type, String length) {
         // Get the latest year from the dataset
