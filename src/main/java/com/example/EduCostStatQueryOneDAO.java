@@ -13,7 +13,7 @@ public class EduCostStatQueryOneDAO {
     private final String databaseName = "assignment-2";
     private final String mainCollectionName = "nces-collection";
     private final String queryCollectionName = "EduCostStatQueryOne";
-    private final String mongoURL = "mongodb+srv://ernestinyama-2:2aRBRLPi9AnzLZ8E@assignment-2-practice.jwf37e8.mongodb.net/?retryWrites=true&w=majority&appName=Assignment-2-practice";
+    private final String mongoURL = "your-mongo-db-url";
 
     public Integer query(int year, String state, String type, String length, String expense) {
         // Check if the query result exists in the query collection
